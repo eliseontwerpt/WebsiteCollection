@@ -1,4 +1,4 @@
-<?php namespace Eliseontwerpt\WebsiteCollection\Controllers;
+<?php namespace EliseOntwerpt\WebsiteCollection\Controllers;
 
 use Backend\Classes\Controller;
 use BackendMenu;

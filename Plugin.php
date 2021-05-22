@@ -1,4 +1,4 @@
-<?php namespace Eliseontwerpt\WebsiteCollection;
+<?php namespace EliseOntwerpt\WebsiteCollection;
 
 use System\Classes\PluginBase;
 
@@ -7,7 +7,7 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
     return [
-            'Eliseontwerpt\WebsiteCollection\Components\Websites' => 'SiteList'
+            'EliseOntwerpt\WebsiteCollection\Components\Websites' => 'SiteList'
         ];
     
     }

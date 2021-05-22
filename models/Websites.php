@@ -1,4 +1,4 @@
-<?php namespace Eliseontwerpt\WebsiteCollection\Models;
+<?php namespace EliseOntwerpt\WebsiteCollection\Models;
 
 use Model;
 
