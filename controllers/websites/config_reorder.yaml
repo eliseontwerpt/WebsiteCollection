@@ -1,0 +1,4 @@
+title: Websites
+modelClass: Eliseontwerpt\WebsiteCollection\Models\Websites
+toolbar:
+    buttons: reorder_toolbar

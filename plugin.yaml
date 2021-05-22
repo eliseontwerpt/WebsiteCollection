@@ -1,0 +1,11 @@
+plugin:
+    name: 'eliseontwerpt.websitecollection::lang.plugin.name'
+    description: 'eliseontwerpt.websitecollection::lang.plugin.description'
+    author: Eliseontwerpt
+    icon: oc-icon-external-link-square
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'eliseontwerpt.websitecollection::lang.plugin.name'
+        url: eliseontwerpt/websitecollection/websites
+        icon: icon-external-link-square

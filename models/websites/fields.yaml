@@ -1,0 +1,33 @@
+fields:
+    title:
+        label: 'eliseontwerpt.websitecollection::lang.title.name'
+        span: full
+        type: text
+        comment: 'eliseontwerpt.websitecollection::lang.title.description'
+    url:
+        label: 'eliseontwerpt.websitecollection::lang.url.name'
+        span: full
+        type: text
+        comment: 'eliseontwerpt.websitecollection::lang.url.description'
+    description:
+        label: 'eliseontwerpt.websitecollection::lang.description.name'
+        size: large
+        mode: split
+        span: full
+        type: markdown
+        comment: 'eliseontwerpt.websitecollection::lang.description.description'
+    screenshots:
+        label: 'File upload'
+        mode: image
+        prompt: 'upload screenshots'
+        fileTypes: 'jpg, JPG, jpeg, png'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        required: 0
+        context:
+            - update
+            - preview
+        type: fileupload

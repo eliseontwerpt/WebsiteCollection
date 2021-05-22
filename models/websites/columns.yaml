@@ -1,0 +1,10 @@
+columns:
+    title:
+        label: 'eliseontwerpt.websitecollection::lang.title.name'
+        type: text
+    url:
+        label: 'eliseontwerpt.websitecollection::lang.url.name'
+        type: text
+    description:
+        label: 'eliseontwerpt.websitecollection::lang.description.name'
+        type: text

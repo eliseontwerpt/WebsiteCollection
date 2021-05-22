@@ -1,0 +1,11 @@
+name: Websites
+modelClass: Eliseontwerpt\WebsiteCollection\Models\Websites
+form: $/eliseontwerpt/websitecollection/models/websites/fields.yaml
+defaultRedirect: eliseontwerpt/websitecollection/websites
+create:
+    redirect: 'eliseontwerpt/websitecollection/websites/update/:id'
+    redirectClose: eliseontwerpt/websitecollection/websites
+update:
+    redirect: eliseontwerpt/websitecollection/websites
+    redirectClose: eliseontwerpt/websitecollection/websites
+preview: {  }
